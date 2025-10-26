@@ -190,9 +190,8 @@ crafted.
 
 # Deployment
 
-Deploy to production is done via `rsync` with every _push_ to the `master`
-branch. See the provided GitHub action at
-[`/.github/workflows/main.yml`](/.github/workflows/main.yml).
+Deploy to production is done by Netlify on every _push_ to the `main` branch.
+See [`/netlify.toml`](/netlify.toml) for further insight.
 
 # How to contact, ask and contribute
 

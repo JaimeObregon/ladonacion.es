@@ -1,0 +1,14 @@
+# Fuente de la verdad para los despliegues en Netlify.
+# Lo aquí configurado prevalece sobre la UI.
+
+[build]
+  publish = "build"
+  command = "npm install && npx snowpack build && cp httpdocs/resources/ladonacion.js build/twitter/ && cp -aR slides httpdocs/"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
