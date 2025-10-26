@@ -620,8 +620,8 @@ template.innerHTML = `
         ><code>@JaimeObregon</code></a
       >, o bien escribir un correo electrónico a
       <code
-        ><a href="mailto:jaime@ladonacion.es" rel="nofollow"
-          >jaime@ladonacion.es</a
+        ><a href="mailto:skyward_prune22@icloud.com" rel="nofollow"
+          >skyward_prune22@icloud.com</a
         ></code
       >. Son bienvenidos los mensajes con aportaciones de nuevos datos
       documentalmente sostenidos y las propuestas de correcciones.
