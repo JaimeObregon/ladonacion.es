@@ -59,7 +59,7 @@ const site = {
           document.querySelector('ladonacion-popup').remove(),
         'LADONACION-SEARCH': () =>
           document.querySelector('ladonacion-search').remove(),
-      }[event.target.tagName]())
+      })[event.target.tagName]()
     })
 
     document.body.lock = function () {
@@ -91,7 +91,8 @@ document.querySelector('body').innerHTML += `
 
 site.init({
   popupTimeout: 1000 * 60 * 5, // 5 minutes
-  mapboxToken: '', // Insert your Mapbox' account token here
+  mapboxToken:
+    'pk.eyJ1IjoiamFpbWVvYnJlZ29uIiwiYSI6ImNramo0MTRyNjlvNjAycmxiaHVnazU4YW0ifQ.kCIiw0XUK3WfUXjA33RDaw',
   routes: [
     {
       page: 'portada',
