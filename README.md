@@ -218,7 +218,7 @@ following:
   plans in an issue beforehand will maximize the chances of it being accepted.
 
 - If you want to specifically address me as the original author of this project,
-  you can **[reach me on Twitter](https://twitter.com/JaimeObregon)**.
+  you can **[reach me on 𝕏](https://x.com/JaimeObregon)**.
 
 # How to help
 

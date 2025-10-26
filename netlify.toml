@@ -3,7 +3,7 @@
 
 [build]
   publish = "build"
-  command = "npm install && npx snowpack build && cp httpdocs/resources/ladonacion.js build/twitter/ && cp -aR slides build/"
+  command = "npm install && npx snowpack build && cp -aR slides build/"
 
 [build.environment]
   NODE_VERSION = "22"
